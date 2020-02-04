@@ -1,21 +1,12 @@
 # Route Planning Project
 
-The starter code for the Route Planning project is from [here](https://github.com/udacity/CppND-Route-Planning-Project).
+The route planning code create a route in between 2 points from user input with A* serach.
+The project is based on the starter code from [here](https://github.com/udacity/CppND-Route-Planning-Project).
 
-<img src="output.png" width="600" height="450" />
+<img src="output.png" width="450" height="450" />
 
-## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-
-## Dependencies for Running Locally
+## Dependencies 
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -29,7 +20,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
-  (Note) It was done with virtual box+ ubuntu for me. Another reference for IO2D install is from [here](https://gist.github.com/wAuner/68ee426b87d297340826660f5ac62b79).
+  * [Note] The enviroment setup on mac turned a little tricky. I did the project with virtual box + ubuntu. Another reference for IO2D install on ubuntu can be found [here](https://gist.github.com/wAuner/68ee426b87d297340826660f5ac62b79).
 
 ## Compiling and Running
 
@@ -58,9 +49,10 @@ Or to specify a map file:
 The testing executable is also placed in the `build` directory. From within `build`, run the unit tests as follows:
 ```
 ./test
-
-The test result is as below:
-<img src="test_output.png" width="600" height="450" />
-
 ```
+The test result is as below:
+
+<img src="test_output.png" />
+
+
 
