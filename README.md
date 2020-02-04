@@ -1,8 +1,8 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+The starter code for the Route Planning project is from [here](https://github.com/udacity/CppND-Route-Planning-Project).
 
-<img src="map.png" width="600" height="450" />
+<img src="output.png" width="600" height="450" />
 
 ## Cloning
 
@@ -29,6 +29,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
+  (Note) It was done with virtual box+ ubuntu for me. Another reference for IO2D install is from [here](https://gist.github.com/wAuner/68ee426b87d297340826660f5ac62b79).
 
 ## Compiling and Running
 
@@ -54,8 +55,12 @@ Or to specify a map file:
 
 ## Testing
 
-The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
+The testing executable is also placed in the `build` directory. From within `build`, run the unit tests as follows:
 ```
 ./test
+
+The test result is as below:
+<img src="test_output.png" width="600" height="450" />
+
 ```
 
